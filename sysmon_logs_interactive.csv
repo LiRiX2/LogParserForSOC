@@ -1,0 +1,7 @@
+UtcTime,EventType,EventID,Image,CommandLine,RegistryKey,FilePath,ProcessId,ParentImage,ParentProcessId
+2025-06-30T11:00:00Z,ProcessCreate,1,powershell.exe,powershell.exe -e...,,,1234,explorer.exe,999
+2025-06-30T11:00:05Z,RegistryEvent,13,reg.exe,reg.exe add HKCU\...\Run /v ...,HKCU\Software\Microsoft\Windows\CurrentVersion\Run\malware_app,,5678,powershell.exe,1234
+2025-06-30T11:01:00Z,FileCreate,11,chrome.exe,,,C:\Users\Florence\Downloads\invoice.exe,9101,svchost.exe,888
+2025-06-30T11:15:00Z,FileCreate,1,cmd.exe,copy C:\temp\* C:\Users\Florence\AppData\Local\Temp\Staging,,C:\Users\Florence\AppData\Local\Temp\Staging,1213,powershell.exe,1234
+2025-06-30T11:16:00Z,ProcessCreate,1,malicious_script.exe,malicious_script.exe -c,,C:\temp\malicious_script.exe,1415,cmd.exe,1213
+2025-06-30T11:17:00Z,NetworkConnection,3,malware.exe,,,,1617,malicious_script.exe,1415

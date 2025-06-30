@@ -1,0 +1,10 @@
+[
+    {
+        "UtcTime":"2025-06-30T11:15:00Z",
+        "EventType":"FileCreate",
+        "Image":"cmd.exe",
+        "CommandLine":"copy C:\\temp\\* C:\\Users\\Florence\\AppData\\Local\\Temp\\Staging",
+        "RegistryKey":null,
+        "FilePath":"C:\\Users\\Florence\\AppData\\Local\\Temp\\Staging"
+    }
+]
