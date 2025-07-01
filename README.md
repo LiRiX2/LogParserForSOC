@@ -1,7 +1,3 @@
-Here's your updated `README.md` with the cool icons and the author field. This will definitely make your project stand out\!
-
------
-
 # LogParserForSOC
 
 An interactive Python-based log parser designed for Security Operations Center (SOC) analysts to efficiently analyze CSV and JSON log files. This tool allows for filtering logs by specific events, performing process correlations, and exporting results for further investigation.
